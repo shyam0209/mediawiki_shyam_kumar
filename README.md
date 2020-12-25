@@ -21,7 +21,7 @@ This module will create a single EC2 instance which will configure MediaWiki in 
 
    <img width="964" alt="terraform init" src="https://github.com/shyam0209/mediawiki_shyam_kumar/blob/main/images/step31.PNG?raw=true">   
    
-   <img width="964" alt="terraform plan" src="https://github.com/shyam0209/mediawiki_shyam_kumar/blob/main/images/step32.PNG?raw=true"> 
+   <img width="964" alt="terraform plan" src="https://github.com/shyam0209/mediawiki_shyam_kumar/blob/main/images/step32.png?raw=true"> 
    
    <img width="964" alt="terraform apply" src="https://github.com/shyam0209/mediawiki_shyam_kumar/blob/main/images/step33.PNG?raw=true">
    
