@@ -1,6 +1,36 @@
-# mediawiki_shyam_kumar
+# MediaWiki on a Red Hat Enterprise Linux
 
+This module will create a single EC2 instance which will configure MediaWiki in it. Apache , MediaWiki and MariaDB are configured in the same EC2 and the installation steps is managed via EC2 user data . The customization available with this stacks are mentioned in the below Inputs section.
 
+## Steps to provision MediaWiki stack on AWS
+
+### Prerequisite 
+    * terraform. 
+	* AWS access and secret keys.
+	* RHEL 8 AMIL details from the AWS account where we are going to provision MediaWiki stack.
+	
+1) Clone the repository to your local.
+
+   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step1.png?raw=true)
+
+2) Switch to terraform folder.
+
+   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step2.png?raw=true)
+ 
+3) Excute terraform commands
+
+   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step31.png?raw=true)   
+   
+   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step32.png?raw=true) 
+   
+   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step33.png?raw=true) 
+   
+
+4) Access the Wikimedia URL and login with the wiki user configured.
+
+   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step4.png?raw=true) 
+   
+   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step41.png?raw=true)
 
 ## Inputs
 
@@ -29,3 +59,10 @@
 | Name | Description |
 |------|-------------|
 | Wikimedia\_URL | Wikimedia login instructions |
+
+
+##TO DO
+
+### Blue Green Deployment
+
+Create target group and register Wikimedia EC2 with appropriate health checks (HTTP).Create ALB and attach target group and add path based routing. For example , /mediawiki path redirect traffic to TG1 . Then create TG2 with changes and add to ALB . Add new path /mediawikinew and configure listener rule to route traffic to TG2. Post testing point /mediawiki to TG2 and TG1 will be idle and wait for next changes.
