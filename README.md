@@ -11,26 +11,26 @@ This module will create a single EC2 instance which will configure MediaWiki in 
 	
 1) Clone the repository to your local.
 
-   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step1.png?raw=true)
+   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step1.PNG?raw=true)
 
 2) Switch to terraform folder.
 
-   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step2.png?raw=true)
+   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step2.PNG?raw=true)
  
 3) Excute terraform commands
 
-   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step31.png?raw=true)   
+   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step31.PNG?raw=true)   
    
-   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step32.png?raw=true) 
+   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step32.PNG?raw=true) 
    
-   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step33.png?raw=true) 
+   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step33.PNG?raw=true) 
    
 
 4) Access the Wikimedia URL and login with the wiki user configured.
 
-   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step4.png?raw=true) 
+   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step4.PNG?raw=true) 
    
-   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step41.png?raw=true)
+   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step41.PNG?raw=true)
 
 ## Inputs
 
@@ -61,7 +61,7 @@ This module will create a single EC2 instance which will configure MediaWiki in 
 | Wikimedia\_URL | Wikimedia login instructions |
 
 
-##TO DO
+## TO DO
 
 ### Blue Green Deployment
 
