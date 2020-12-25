@@ -66,3 +66,8 @@ This module will create a single EC2 instance which will configure MediaWiki in 
 ### Blue Green Deployment
 
 Create target group and register Wikimedia EC2 with appropriate health checks (HTTP).Create ALB and attach target group and add path based routing. For example , /mediawiki path redirect traffic to TG1 . Then create TG2 with changes and add to ALB . Add new path /mediawikinew and configure listener rule to route traffic to TG2. Post testing point /mediawiki to TG2 and TG1 will be idle and wait for next changes.
+
+### Scaling
+Current installation won’t support cluster configuration. We need to have multiple application servers which will point to the central DB. Once we know procedure to implement  , we can make use of AWS ALB with ASG to achieve elastic architecture. Please find below a proposed architect using ALB , EC2 and RDS. We can further add more AWS services such as Route 53 to achieve blue green or rolling deployment techniques.
+
+<img width="964" alt="cluster " src="https://github.com/shyam0209/mediawiki_shyam_kumar/blob/main/images/cluster.png?raw=true">
