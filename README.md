@@ -10,27 +10,27 @@ This module will create a single EC2 instance which will configure MediaWiki in 
 	* RHEL 8 AMIL details from the AWS account where we are going to provision MediaWiki stack.
 	
 1) Clone the repository to your local.
-
-   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step1.PNG?raw=true)
-
+   
+   <img width="964" alt="git clone" src="https://github.com/shyam0209/mediawiki_shyam_kumar/blob/main/images/step1.PNG?raw=true">
+   
 2) Switch to terraform folder.
 
-   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step2.PNG?raw=true)
+   <img width="964" alt="navigate to terraform folder" src="https://github.com/shyam0209/mediawiki_shyam_kumar/blob/main/images/step2.PNG?raw=true">
  
 3) Excute terraform commands
 
-   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step31.PNG?raw=true)   
+   <img width="964" alt="terraform init" src="https://github.com/shyam0209/mediawiki_shyam_kumar/blob/main/images/step31.PNG?raw=true">   
    
-   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step32.PNG?raw=true) 
+   <img width="964" alt="terraform plan" src="https://github.com/shyam0209/mediawiki_shyam_kumar/blob/main/images/step32.PNG?raw=true"> 
    
-   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step33.PNG?raw=true) 
+   <img width="964" alt="terraform apply" src="https://github.com/shyam0209/mediawiki_shyam_kumar/blob/main/images/step33.PNG?raw=true">
    
 
 4) Access the Wikimedia URL and login with the wiki user configured.
 
-   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step4.PNG?raw=true) 
+   <img width="964" alt="wikimedia login" src="https://github.com/shyam0209/mediawiki_shyam_kumar/blob/main/images/step4.PNG?raw=true">
    
-   ![alt text](https://github.com/shyam0209/mediawiki_shyam_kumar/images/main/step41.PNG?raw=true)
+   <img width="964" alt="wikimedia home" src="https://github.com/shyam0209/mediawiki_shyam_kumar/blob/main/images/step41.PNG?raw=true">
 
 ## Inputs
 
