@@ -7,7 +7,7 @@ This module will create a single EC2 instance which will configure MediaWiki in 
 ### Prerequisite 
     * terraform. 
 	* AWS access and secret keys.
-	* RHEL 8 AMIL details from the AWS account where we are going to provision MediaWiki stack.
+	* RHEL 8 AMI details from the AWS account where we are going to provision MediaWiki stack.
 	
 1) Clone the repository to your local.
    
