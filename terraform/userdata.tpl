@@ -10,7 +10,7 @@ if [ $( dnf list installed expect 2>/dev/null | grep -c "expect") -eq 0 ]; then
 	dnf -y install expect
 fi
 
-ECURE_MYSQL=$(expect -c "
+SECURE_MYSQL=$(expect -c "
 set timeout 3
 spawn mysql_secure_installation
 expect \"Enter current password for root (enter for none):\"
